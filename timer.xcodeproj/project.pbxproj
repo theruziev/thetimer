@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2F0F400E2D3D442700902249 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0F400D2D3D442700902249 /* logo.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2F0F3FE62D3D0E7A00902249 /* timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0F400D2D3D442700902249 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		2F0F3FDD2D3D0E7A00902249 = {
 			isa = PBXGroup;
 			children = (
+				2F0F400D2D3D442700902249 /* logo.png */,
 				2F0F3FE82D3D0E7A00902249 /* timer */,
 				2F0F3FE72D3D0E7A00902249 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0F400E2D3D442700902249 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
