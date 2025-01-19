@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2F0F400E2D3D442700902249 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0F400D2D3D442700902249 /* logo.png */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		2F0F3FE62D3D0E7A00902249 /* timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F0F400D2D3D442700902249 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2F0F3FE62D3D0E7A00902249 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +32,6 @@
 		2F0F3FDD2D3D0E7A00902249 = {
 			isa = PBXGroup;
 			children = (
-				2F0F400D2D3D442700902249 /* logo.png */,
 				2F0F3FE82D3D0E7A00902249 /* timer */,
 				2F0F3FE72D3D0E7A00902249 /* Products */,
 			);
@@ -46,7 +40,7 @@
 		2F0F3FE72D3D0E7A00902249 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F0F3FE62D3D0E7A00902249 /* timer.app */,
+				2F0F3FE62D3D0E7A00902249 /* Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F0F3FE52D3D0E7A00902249 /* timer */ = {
+		2F0F3FE52D3D0E7A00902249 /* Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F0F3FF52D3D0E7B00902249 /* Build configuration list for PBXNativeTarget "timer" */;
+			buildConfigurationList = 2F0F3FF52D3D0E7B00902249 /* Build configuration list for PBXNativeTarget "Timer" */;
 			buildPhases = (
 				2F0F3FE22D3D0E7A00902249 /* Sources */,
 				2F0F3FE32D3D0E7A00902249 /* Frameworks */,
@@ -69,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				2F0F3FE82D3D0E7A00902249 /* timer */,
 			);
-			name = timer;
+			name = Timer;
 			packageProductDependencies = (
 			);
 			productName = timer;
-			productReference = 2F0F3FE62D3D0E7A00902249 /* timer.app */;
+			productReference = 2F0F3FE62D3D0E7A00902249 /* Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F0F3FE12D3D0E7A00902249 /* Build configuration list for PBXProject "timer" */;
+			buildConfigurationList = 2F0F3FE12D3D0E7A00902249 /* Build configuration list for PBXProject "Timer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -105,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F0F3FE52D3D0E7A00902249 /* timer */,
+				2F0F3FE52D3D0E7A00902249 /* Timer */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +109,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0F400E2D3D442700902249 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F0F3FE12D3D0E7A00902249 /* Build configuration list for PBXProject "timer" */ = {
+		2F0F3FE12D3D0E7A00902249 /* Build configuration list for PBXProject "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F0F3FF32D3D0E7B00902249 /* Debug */,
@@ -322,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F0F3FF52D3D0E7B00902249 /* Build configuration list for PBXNativeTarget "timer" */ = {
+		2F0F3FF52D3D0E7B00902249 /* Build configuration list for PBXNativeTarget "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F0F3FF62D3D0E7B00902249 /* Debug */,
