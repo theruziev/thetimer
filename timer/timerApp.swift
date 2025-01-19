@@ -22,6 +22,7 @@ struct timerApp: App {
     
         .commandsRemoved()
         .windowResizability(.contentSize)
+        .windowLevel(.floating)
         .windowStyle(.hiddenTitleBar)
         .commands {
             CommandGroup(replacing: .appTermination) {
